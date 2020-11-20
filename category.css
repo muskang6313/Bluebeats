@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	box-sizing: border-box;
+	background-color: #ffff;
+	background: radial-gradient(#fff,#ffd6d6);
+}
+ul li a{
+	text-decoration: none;
+	color:#000;
+	padding: 10px 50px;
+	border: 2px solid #4B0082;
+	transition: 0.6s ease;
+	font-family: Century Gothic;
+}
+
+ul li a:hover{
+	background-color: #D8BFD8;
+	
+	cursor: pointer;
+	font-weight: bold;
+	font-family: Century Gothic;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 2px;
+}
+
+.main{
+	font-family: Copperplate Gothic Light;
+	font-size: 40px;
+	color: #4B0082
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	color: #555;
+}
+p{
+	color: #555;
+}
+.header{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding=right: 5px;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.row img{
+	max-width: 118%;
+	padding: 30px 0;
+}
+.categories{
+	margin: 70px 0;
+	text-align: center;
+	font-family: Gabriola;
+
+}
+.col-6{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+}
+.col-6 img{
+	width: 100%;
+	height: 400px;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+}
+.col-6 img:hover{
+	opacity: 0.5;
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	cursor: pointer;
+}
+.small-container{
+	max-width: 1800px;
+	margin: auto;
+
+}
+footer{
+	background: #303036;
+	color: #ffff;
+	text-align: center;
+	padding: 20px;
+	height: 20px;
+}
